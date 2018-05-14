@@ -1,0 +1,114 @@
+* {box-sizing: border-box;margin:0; padding:0;}
+#wrapper{ display:flex;
+          width: 100%;
+          height: auto;
+          flex-wrap:wrap;
+          align-items: center;
+          justify-content: center;
+}
+#set {
+    width: 100%;
+    height:40px;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+    background-color: blanchedalmond;
+    text-transform: uppercase;   
+}
+
+#rezultat {
+    width:100%;
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#domaci , #gosti{
+    height:40px;
+    min-width:15%;
+    border-radius:5%;
+    padding:5px;
+    text-align: center;
+    background-color: red;
+    color:#fff;
+    font-size:1.2em;
+}
+#poeniDomaci, #poeniGosti{
+    height:60px;
+    min-width:8%;
+    background-color: red;
+    color:#fff;
+    font-size:3em;
+    margin:5%;
+    text-align:center;
+    border-radius: 10%
+}
+#poeniGosti, #gosti {
+    background-color: blue;
+}
+
+#main{
+    display:flex;
+    margin-top:5px;
+    width:100%;
+    height:480px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color:#eee
+}
+ol {
+    max-width:16%;
+    height:200px;
+}
+table{
+    margin:10px;
+    min-width:25%;
+    height:450px;
+}
+table,tr{max-width: 10%;
+         min-height:50px;
+         text-align: center;
+         border-collapse: collapse;}
+    tr.mreza {
+       border-top: 4px solid green;
+    }
+    tr.pozicijaLibera {
+        background-color:yellow;
+        text-align: center;
+    }
+ div#Dpozicija1,div#Dpozicija2,
+ div#Dpozicija3,div#Dpozicija4,
+ div#Dpozicija5,div#Dpozicija6 {
+        height:40px;
+        width:40px;
+        margin:0 auto;
+        background-color:red;
+        color:white;
+        border-radius: 50%;   
+    }
+ div#Gpozicija1,div#Gpozicija2,
+ div#Gpozicija3,div#Gpozicija4,
+ div#Gpozicija5,div#Gpozicija6 {
+    height:40px;
+    width:40px;
+    margin:0 auto;
+    background-color:blue;
+    color:white;
+    border-radius: 50%; 
+ }
+#dugmePoeni{
+    display:flex;
+    width:80%;
+    justify-content: space-evenly;
+
+}
+#domacin, #gost{ min-width:10%;
+                 height:35px;
+                 font-size: 1.2em;
+                 color:#fff;
+                 background-color: red;
+}
+#gost{
+    background-color:blue;
+}
